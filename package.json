@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-challenger",
+  "version": "1.0.0",
+  "description": "Simples desafio de recrutamento na plataforma NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandofarias/nodejs-challenger.git"
+  },
+  "author": "nandofarias",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nandofarias/nodejs-challenger/issues"
+  },
+  "homepage": "https://github.com/nandofarias/nodejs-challenger#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
