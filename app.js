@@ -1,8 +1,8 @@
 const express = require('express');
+const controllers = require('./controllers');
+
 const app = express();
 const port = 3000;
-
-const controllers = require('./controllers');
 
 app.use(controllers);
 
