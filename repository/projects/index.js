@@ -1,12 +1,11 @@
-const projects = require('./data').data;
+const projects = require('./data').projects;
 
 function create(project) {
-  projects.push(project);
-  console.log(projects);
+  return projects.push(project);
 }
 
 function findAll() {
-  console.log(projects);
+  return projects;
 }
 
 module.exports = { create, findAll };

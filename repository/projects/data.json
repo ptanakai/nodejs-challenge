@@ -1,5 +1,40 @@
 {
-  "data": [
-    
+  "projects": [
+    {
+      "name": "API",
+      "description": "Business Project",
+      "budget": "2000",
+      "reports": [
+        "Green",
+        "Green",
+        "Yellow",
+        "Green",
+        "Red"
+      ]
+    },
+    {
+      "name": "BPI",
+      "description": "Business Project",
+      "budget": "3000",
+      "reports": [
+        "Green",
+        "Green",
+        "Yellow",
+        "Green",
+        "Green"
+      ]
+    },
+    {
+      "name": "CPI",
+      "description": "Business Project",
+      "budget": "1900",
+      "reports": [
+        "Green",
+        "Green",
+        "Yellow",
+        "Green",
+        "Yellow"
+      ]
+    }
   ]
 }
