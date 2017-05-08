@@ -2,7 +2,12 @@ const projects = require('./data').projects;
 let arrayRisco = [];
 
 function create(project) {
-  return projects.push(project);
+  if (project.name != ""){
+    projects.push(project);
+    return true;
+  } else{
+    return false;
+  } 
 }
 
 function findAll() {
