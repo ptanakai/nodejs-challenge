@@ -8,4 +8,8 @@ function findAll() {
   return Projects.findAll();
 }
 
-module.exports = { create, findAll };
+function findRisco(){
+  return Projects.findRisco();
+}
+
+module.exports = { create, findAll, findRisco };
